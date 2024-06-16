@@ -3,6 +3,7 @@ import Header from './components/header/index';
 import Hero from './components/hero';
 import AboutTelescopes from './components/aboutTelescopes';
 import Charts from './components/charts';
+import AboutProject from './components/aboutProject';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Hero />
       <AboutTelescopes />
       <Charts />
+      <AboutProject />
     </>
   );
 }

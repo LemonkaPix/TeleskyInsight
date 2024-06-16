@@ -27,3 +27,8 @@ body {
 .bg {
   background-color: #242424;
 }
+
+.chart-container {
+  stroke: #fff !important;
+}
+
