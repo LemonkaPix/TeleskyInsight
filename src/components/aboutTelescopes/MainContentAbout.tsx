@@ -17,7 +17,6 @@ const MainContentAbout = () => {
                     Przykłady użycia: Najpiękniejsze sentencje zapisuję w zeszycie. Dokument opatrzyłem dosyć ironiczną sentencją</p>
             </div>
         </div>
-        
     </div>
   )
 }

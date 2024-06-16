@@ -4,6 +4,7 @@ import Hero from './components/hero';
 import AboutTelescopes from './components/aboutTelescopes';
 import Charts from './components/charts';
 import AboutProject from './components/aboutProject';
+import Team from './components/team';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <AboutTelescopes />
       <Charts />
       <AboutProject />
+      <Team />
     </>
   );
 }

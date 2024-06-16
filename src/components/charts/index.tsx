@@ -7,7 +7,7 @@ const Charts = () => {
     <div className='max-w-screen-xl mx-auto flex flex-col mt-[100px] mb-[100px]'>
         {/* <h2 className='w-full text-3xl mb-8 font-extrabold  text-center xl:text-start'>Wykresy</h2> */}
         <div className='flex flex-col xl:flex-row justify-between items-center'>
-            <div className='w-[95%] md:w-[45%] flex justify-center items-center flex-col'>
+            <div className='w-[95%] md:w-[55%] flex justify-center items-center flex-col'>
                 <h2 className='text-2xl font-bold w-full'>wykres [jakas nazwa]</h2>
                 <p className='w-full'>krótki opis jeśli będzie trzeba</p>
                 <div className="chart-container w-[100%]">
@@ -25,7 +25,7 @@ const Charts = () => {
                     />
                 </div>
             </div>
-            <div className='w-[95%] md:w-[45%] flex justify-center items-center flex-col'>
+            <div className='w-[95%] md:w-[55%] flex justify-center items-center flex-col mt-[60px] xl:mt-0'>
                 <h2 className='text-2xl font-bold w-full'>wykres [jakas nazwa]</h2>
                 <p className='w-full'>krótki opis jeśli będzie trzeba</p>
                 <div className="chart-container w-[100%]">
