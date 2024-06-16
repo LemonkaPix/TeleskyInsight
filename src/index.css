@@ -21,4 +21,9 @@ body {
   margin: 0;
   display: flex;
   min-width: 320px;
+  font-family: 'Roboto Slab', serif;
+}
+
+.bg {
+  background-color: #242424;
 }

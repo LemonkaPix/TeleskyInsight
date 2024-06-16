@@ -19,6 +19,9 @@ const StandardHeader = () => {
       };
     }, []);
 
+    const logoTopPosition = isScrolled ? 'top-[11px]' : 'top-[20px]';
+
+
   return (
     <div className="bg-[#181414] text-white fixed top-0 left-1/2 transform -translate-x-1/2 w-[100%] xl:w-[85%] max-w-screen-xl z-50 rounded-bl-xl rounded-br-lg">
       <div className="flex justify-center items-center h-[80px] relative">
@@ -41,7 +44,7 @@ const StandardHeader = () => {
               </div>
             </div>
 
-            <img src={logo} alt="Logo" className={`absolute transition-all duration-1000 cubic-bezier(0.25, 0.1, 0.25, 1) top-${isScrolled ? '[6px]' : '[15px]'} left-1/2 transform -translate-x-1/2 ${isScrolled ? 'lg:w-[80px] w-[75px]' : 'lg:w-[120px] w-[105px]'} z-50 bg-[#181414] p-${isScrolled ? '0' : '3'} rounded-bl-xl rounded-br-xl`} />
+            <img src={logo} alt="Logo" className={`absolute transition-all duration-1000 cubic-bezier(0.25, 0.1, 0.25, 1) ${logoTopPosition} pb-[5px] pr-[5px] left-1/2 transform -translate-x-1/2 ${isScrolled ? 'lg:w-[80px] w-[75px]' : 'lg:w-[120px] w-[105px]'} z-50 bg-[#181414] ${isScrolled ? 'p-0' : 'p-1'} rounded-bl-xl rounded-br-xl`} />
             
             <div className="hidden md:flex items-center justify-end xl:space-x-10 space-x-3">
               <a href="#" className="bg-[#283593] text-white px-2 lg:px-4 py-2 rounded-xl hover:bg-blue-700 text-[14px] md:text-[16px]">

@@ -1,3 +1,11 @@
 #root {
-  max-width: 1680px;
+  /* max-width: 1680px; */
+  width: 100%;
+}
+
+.heroWrapper {
+  background-image: url('./assets/heroBg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
