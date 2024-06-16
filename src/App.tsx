@@ -2,6 +2,7 @@ import './App.css';
 import Header from './components/header/index';
 import Hero from './components/hero';
 import AboutTelescopes from './components/aboutTelescopes';
+import Charts from './components/charts';
 
 function App() {
   return (
@@ -9,7 +10,7 @@ function App() {
       <Header />
       <Hero />
       <AboutTelescopes />
-      <div className='h-[40vh]'></div>
+      <Charts />
     </>
   );
 }
