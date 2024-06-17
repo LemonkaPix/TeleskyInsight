@@ -3,9 +3,22 @@ import logo from "../../assets/logos.png";
 
 const StandardHeader = () => {
     const [isScrolled, setIsScrolled] = useState(false);
-   
-    const logoTopPosition = isScrolled ? 'top-[11px]' : 'top-[20px]';
 
+    useEffect(() => {
+      const handleScroll = () => {
+          if (window.scrollY > 0) {
+              setIsScrolled(true);
+          } else {
+              setIsScrolled(false);
+          }
+      };
+      window.addEventListener('scroll', handleScroll);
+      return () => {
+          window.removeEventListener('scroll', handleScroll);
+      };
+  }, []);
+
+  const logoTopPosition = isScrolled? 'top-[11px]' : 'top-[20px]';
 
   return (
     <div className="bg-[#181414] text-white fixed top-0 left-1/2 transform -translate-x-1/2 w-[100%] xl:w-[85%] max-w-screen-xl z-50 rounded-bl-xl rounded-br-lg">
