@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import logo from "../../assets/logos.png"; 
+import { Link } from 'react-router-dom';
 
 const StandardHeader = () => {
     const [isScrolled, setIsScrolled] = useState(false);
@@ -32,7 +33,7 @@ const StandardHeader = () => {
                 <i className="fas fa-bars"></i>
               </button>
               <div className={` flex-col md:flex-row md:flex xl:space-x-10 space-x-3`}>
-                <a href="#" className="bg-[#283593] text-white px-2 lg:px-4 py-2 rounded-xl hover:bg-blue-700 text-[14px] md:text-[16px]">
+                <a href="" className="bg-[#283593] text-white px-2 lg:px-4 py-2 rounded-xl hover:bg-blue-700 text-[14px] md:text-[16px]">
                   Strona główna
                 </a>
                 <a href="#" className="bg-[#283593] text-white px-2 lg:px-4 py-2 rounded-xl hover:bg-blue-700 text-[14px] md:text-[16px]">
