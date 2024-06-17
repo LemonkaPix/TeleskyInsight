@@ -1,4 +1,4 @@
-import IntroAbout from "./IntroAbout"
+// import IntroAbout from "./IntroAbout"
 import MainContentAbout from "./MainContentAbout"
 
 const AboutTelescopes = () => {
