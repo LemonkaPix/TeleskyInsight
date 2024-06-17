@@ -5,6 +5,7 @@ import AboutTelescopes from './components/aboutTelescopes';
 import Charts from './components/charts';
 import AboutProject from './components/aboutProject';
 import Team from './components/team';
+import Footer from './components/footer';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Charts />
       <AboutProject />
       <Team />
+      <Footer />
     </>
   );
 }
