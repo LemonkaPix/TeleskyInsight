@@ -8,7 +8,7 @@ const MobileHeader = () => {
     setIsOpen(!isOpen);
   };
 
-  const scrollToSection = (id) => {
+  const scrollToSection = (id: any) => {
     const yOffset = -80; // Adjust this value as needed
     const element = document.getElementById(id);
     if (element) {
