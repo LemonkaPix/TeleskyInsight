@@ -10,7 +10,7 @@ const Footer = () => {
                     <img src={logo} alt="Telesky Insight" className='w-[100px]' />
                     <h2 className=''>Telesky Insight</h2>
                 </div>
-                <div className='mx-[15px] sm:mr-[40px] xl:mr-[10px] text-sm md:text-[16px] sm:mb-0 mb-5'>
+                <div className='mx-[15px] sm:mr-[40px] xl:mr-[10px] text-sm md:text-[16px] sm:mb-0 mb-5 text-center md:text-start'>
                     <p>Wszystkie prawa zastrzeżone 2024 Telesky Insight</p>
                 </div>
             </div>

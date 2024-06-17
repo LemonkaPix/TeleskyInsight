@@ -3,8 +3,9 @@ import MainContentAbout from "./MainContentAbout"
 
 const AboutTelescopes = () => {
   return (
-    <div className='w-full flex justify-center items-center mt-[50px] flex-col' id="aboutTelescopes">
-       <IntroAbout />
+    
+    <div className='w-full flex justify-center items-center  flex-col' id="aboutTelescopes"> {/* mt-[50px] */}
+       {/* <IntroAbout /> */}
        <MainContentAbout />
     </div>
   )

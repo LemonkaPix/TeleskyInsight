@@ -11,9 +11,9 @@ const Team = () => {
       <div className="flex flex-wrap justify-center w-[90%] lg:w-full mx-auto">
         {DataPerson.map((item: any, index: any) => {
           return (
-            <div key={index} className="p-2 w-[300px] h-[500px] lg:w-1/4">
+            <div key={index} className="p-2 w-[300px] h-[400px] lg:h-[500px] lg:w-1/4 mb-[30px] md:mb-0">
               <div
-                className="relative overflow-hidden cursor-pointer rounded-xl h-full"
+                className="relative overflow-hidden cursor-pointer rounded-xl h-[400px] md:h-full"
                 onMouseEnter={() => setHoveredIndex(index)}
                 onMouseLeave={() => setHoveredIndex(null)}
               >
