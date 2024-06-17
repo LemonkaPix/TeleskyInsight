@@ -1,4 +1,3 @@
-import React from 'react'
 import Sponsors from '../sponsors';
 import logo from "../../assets/logos.png"
 

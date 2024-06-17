@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import DataPerson from "./DataPerson"; 
 
 const Team = () => {

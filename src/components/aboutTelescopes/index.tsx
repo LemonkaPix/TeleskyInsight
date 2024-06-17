@@ -1,4 +1,3 @@
-import React from 'react'
 import IntroAbout from "./IntroAbout"
 import MainContentAbout from "./MainContentAbout"
 

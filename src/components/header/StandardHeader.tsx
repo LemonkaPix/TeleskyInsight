@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import logo from "../../assets/logos.png"; 
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 const StandardHeader = () => {
     const [isScrolled, setIsScrolled] = useState(false);

@@ -1,8 +1,5 @@
-import React from 'react'
-import heroBg from "../../assets/heroBg.png"
 import radioTeleskop from "../../assets/radioteleskop.png"
 import radioTeleskop2 from "../../assets/radioteleskop2.png"
-import mirrorRadioteleskop from "../../assets/mirrorRadioteleskop.png"
 
 const Hero = () => {
   return (

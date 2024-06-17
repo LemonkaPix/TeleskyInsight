@@ -1,4 +1,3 @@
-import React from 'react';
 import aboutProject from "../../assets/aboutProject.jpg"; 
 import aboutProject2 from "../../assets/aboutProject2.jpg"; 
 
