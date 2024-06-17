@@ -13,7 +13,6 @@ const AboutSection = () => {
             projekt ten to prawdziwa życiowa fikcja testowe nazwy i testtreści zawartosci contain kontent czy dlugosc ok
             projekt ten to prawdziwa życiowa fikcja testowe nazwy i testtreści zawartosci contain kontent czy dlugosc ok
             projekt ten to prawdziwa życiowa fikcja testowe nazwy i testtreści zawartosci contain kontent czy dlugosc ok
-            projekt ten to prawdziwa życiowa fikcja testowe nazwy i testtreści zawartosci contain kontent czy dlugosc ok
           </p>
         </div>
         <div className='md:w-[40%] w-full relative flex flex-col sm:flex-row  justify-center items-center sm:items-start md:items-center mt-[50px] md:mt-0'>
