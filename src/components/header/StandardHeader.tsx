@@ -1,25 +1,9 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import logo from "../../assets/logos.png"; 
-import { Link } from 'react-router-dom';
 
 const StandardHeader = () => {
     const [isScrolled, setIsScrolled] = useState(false);
-
-    useEffect(() => {
-      const handleScroll = () => {
-        if (window.scrollY > 10) { 
-          setIsScrolled(true);
-        } else {
-          setIsScrolled(false);
-        }
-      };
-      window.addEventListener('scroll', handleScroll);
-  
-      return () => {
-        window.removeEventListener('scroll', handleScroll);
-      };
-    }, []);
-
+   
     const logoTopPosition = isScrolled ? 'top-[11px]' : 'top-[20px]';
 
 
@@ -33,13 +17,13 @@ const StandardHeader = () => {
                 <i className="fas fa-bars"></i>
               </button>
               <div className={` flex-col md:flex-row md:flex xl:space-x-10 space-x-3`}>
-                <a href="" className="bg-[#283593] text-white px-2 lg:px-4 py-2 rounded-xl hover:bg-blue-700 text-[14px] md:text-[16px]">
+                <a href="/" className="bg-[#283593] text-white px-2 lg:px-4 py-2 rounded-xl hover:bg-blue-700 text-[14px] md:text-[16px]">
                   Strona główna
                 </a>
-                <a href="#" className="bg-[#283593] text-white px-2 lg:px-4 py-2 rounded-xl hover:bg-blue-700 text-[14px] md:text-[16px]">
+                <a href="#aboutTelescopes" className="bg-[#283593] text-white px-2 lg:px-4 py-2 rounded-xl hover:bg-blue-700 text-[14px] md:text-[16px]">
                   Teleskop
                 </a>
-                <a href="#" className="bg-[#283593] text-white px-2 lg:px-4 py-2 rounded-xl hover:bg-blue-700 text-[14px] md:text-[16px]">
+                <a href="#charts" className="bg-[#283593] text-white px-2 lg:px-4 py-2 rounded-xl hover:bg-blue-700 text-[14px] md:text-[16px]">
                   Odczyty
                 </a>
               </div>
@@ -48,13 +32,13 @@ const StandardHeader = () => {
             <img src={logo} alt="Logo" className={`absolute transition-all duration-1000 cubic-bezier(0.25, 0.1, 0.25, 1) ${logoTopPosition} pb-[5px] pr-[5px] left-1/2 transform -translate-x-1/2 ${isScrolled ? 'lg:w-[80px] w-[75px]' : 'lg:w-[120px] w-[105px]'} z-50 bg-[#181414] ${isScrolled ? 'p-0' : 'p-1'} rounded-bl-xl rounded-br-xl`} />
             
             <div className="hidden md:flex items-center justify-end xl:space-x-10 space-x-3">
-              <a href="#" className="bg-[#283593] text-white px-2 lg:px-4 py-2 rounded-xl hover:bg-blue-700 text-[14px] md:text-[16px]">
+              <a href="#project" className="bg-[#283593] text-white px-2 lg:px-4 py-2 rounded-xl hover:bg-blue-700 text-[14px] md:text-[16px]">
                 O projekcie
               </a>
-              <a href="#" className="bg-[#283593] text-white px-2 lg:px-4 py-2 rounded-xl hover:bg-blue-700 text-[14px] md:text-[16px]">
+              <a href="#team" className="bg-[#283593] text-white px-2 lg:px-4 py-2 rounded-xl hover:bg-blue-700 text-[14px] md:text-[16px]">
                 Członkowie
               </a>
-              <a href="#" className="bg-[#283593] text-white px-2 lg:px-4 py-2 rounded-xl hover:bg-blue-700 text-[14px] md:text-[16px]">
+              <a href="#footer" className="bg-[#283593] text-white px-2 lg:px-4 py-2 rounded-xl hover:bg-blue-700 text-[14px] md:text-[16px]">
                 Sponsorzy
               </a>
             </div>

@@ -1,11 +1,11 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import DataPerson from "./DataPerson"; 
 
 const Team = () => {
   const [hoveredIndex, setHoveredIndex] = useState(null);
 
   return (
-    <div className="max-w-screen-lg xl:max-w-screen-xl mx-auto pb-20">
+    <div className="max-w-screen-lg xl:max-w-screen-xl mx-auto pb-20" id="team">
       <h1 className="text-3xl font-extrabold mb-5 w-[75%] lg:w-full mx-auto text-center xl:text-start">Nasz Zespół</h1>
 
       <div className="flex flex-wrap justify-center w-[90%] lg:w-full mx-auto">

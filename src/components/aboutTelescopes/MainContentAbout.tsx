@@ -1,4 +1,3 @@
-import React from 'react'
 import radioteleScopeImage from "../../assets/radiotelescopeImage.jpg"
 
 const MainContentAbout = () => {

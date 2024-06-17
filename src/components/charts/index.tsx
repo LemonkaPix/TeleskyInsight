@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { LineChart } from '@mui/x-charts/LineChart';
 
 const Charts = () => {
@@ -26,7 +26,7 @@ const Charts = () => {
   }, []);
 
   return (
-    <div className='max-w-screen-xl mx-auto flex flex-col mt-[100px] mb-[100px] items-center'>
+    <div className='max-w-screen-xl mx-auto flex flex-col mt-[100px] mb-[100px] items-center' id='charts'>
         <h2 className='w-full text-3xl mb-8 font-extrabold text-center'>Wykresy</h2>
         <div className='flex flex-col md:flex-row justify-between items-center space-x-0 md:space-x-8'>
             <div className='w-full md:w-[48%] flex justify-center items-center flex-col'>

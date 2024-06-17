@@ -1,15 +1,13 @@
-import React from 'react';
 import aboutProject from "../../assets/aboutProject.jpg"; 
 import aboutProject2 from "../../assets/aboutProject2.jpg"; 
 
 const AboutSection = () => {
   return (
-    <div className='bg-[#283593] w-full mb-[100px] overflow-hidden'>
+    <div className='bg-[#283593] w-full mb-[100px] overflow-hidden' id="project">
       <div className='max-w-screen-xl mx-auto flex md:flex-row flex-col justify-between items-center px-5 py-20'>
         <div className='md:w-[50%] w-full py-10'>
           <h2 className='text-2xl md:text-3xl font-extrabold mb-4 text-white mt-0 md:mt-[80px]'>O projecie</h2>
           <p className='text-sm xl:text-md lg:text-lg text-white'>
-            projekt ten to prawdziwa życiowa fikcja testowe nazwy i testtreści zawartosci contain kontent czy dlugosc ok
             projekt ten to prawdziwa życiowa fikcja testowe nazwy i testtreści zawartosci contain kontent czy dlugosc ok
             projekt ten to prawdziwa życiowa fikcja testowe nazwy i testtreści zawartosci contain kontent czy dlugosc ok
             projekt ten to prawdziwa życiowa fikcja testowe nazwy i testtreści zawartosci contain kontent czy dlugosc ok
