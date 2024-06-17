@@ -3,7 +3,7 @@ import logo from "../../assets/logos.png"
 
 const Footer = () => {
     return (
-        <footer className='w-full bg-[#181414]'>
+        <footer className='w-full bg-[#181414]' id='footer'>
             <Sponsors />
             <div className='max-w-screen-xl mx-auto flex justify-between items-center  border-t-2 border-white-200 mt-5 flex-col sm:flex-row'>
                 <div className='flex justify-center items-center my-7 mx-[15px] sm:ml-[40px] xl:ml-[10px]'>
