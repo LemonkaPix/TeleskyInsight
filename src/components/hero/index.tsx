@@ -11,7 +11,9 @@ const Hero = () => {
         </div>
         <div className='px-5 py-10 sm:p-12 text-center flex flex-col items-center'>
           <h1 className='text-2xl sm:text-3xl md:text-3xl lg:text-4xl text-white font-extrabold tracking-wider'>Teleksy Insight</h1>
-          <p className='w-full sm:w-3/5 text-gray-300 mt-5 text-[13px] sm:text-[15px] md:text-[17px]'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer</p>
+          <p className='w-full sm:w-3/5 text-gray-300 mt-5 text-[13px] sm:text-[15px] md:text-[17px]'>
+            Jesteśmy grupą młodych i ambitnych osób, które od zawsze pasjonowały się tajemnicami kosmosu. Nasza fascynacja sprawiła, że podjęliśmy śmiałe wyzwanie zbudowania własnego radioteleskopu.
+          </p>
         </div>
       </div>
   </div>

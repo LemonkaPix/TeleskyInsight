@@ -9,7 +9,7 @@ const MainContentAbout = () => {
                 <img src="" alt="" />
             </div>
             <div className='md:w-[50%] w-[90%] py-10'>
-                <h2 className='text-2xl md:text-3xl font-extrabold mb-2'>Radioteleskoy</h2>
+                <h2 className='text-2xl md:text-3xl font-extrabold mb-2'>Nasz radioteleskop</h2>
                 <p className='text-md md:text-lg'>Sentencja to krótka, przeważnie jednozdaniowa, błyskotliwa wypowiedź wyrażająca ogólną myśl o charakterze filozoficznym lub moralnym. 
                     Przykłady użycia: Najpiękniejsze sentencje zapisuję w zeszycie. Dokument opatrzyłem dosyć ironiczną sentencją. 
                     Sentencja to krótka, przeważnie jednozdaniowa, błyskotliwa wypowiedź wyrażająca ogólną myśl o charakterze filozoficznym lub moralnym. 

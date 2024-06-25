@@ -11,7 +11,8 @@ const Sponsors = () => {
     slidesToShow: 4, 
     slidesToScroll: 1,
     arrows: false, 
-    autoplay: true, 
+    // autoplay: true, 
+    autoplay: false, 
     autoplaySpeed: 2000, 
     responsive: [
       {

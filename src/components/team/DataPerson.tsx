@@ -1,4 +1,7 @@
-import person1 from "../../assets/person1.png";
+import martyna from "../../assets/Martyna.jpg";
+import maciek from "../../assets/Maciej.jpg";
+import jakub from "../../assets/Jakub.jpg";
+import mikolaj from "../../assets/Mikolaj.jpg";
 
 interface Person {
     image: string;
@@ -8,24 +11,24 @@ interface Person {
 
 const DataPerson: Person[] = [
     {
-        image: person1,
-        fullName: "Jan Kowalski",
-        description: "Jan Kowalski jest doświadczonym programistą JavaScript, specjalizującym się w React i Node.js."
+        image: jakub,
+        fullName: "Jakub Mazur",
+        description: "Szczęśliwy Młody Inżynier Eksploruje Realizacje Dźwięcznej Zmysłowości, Inspirując Mi Siłę, Ukryte Rzeczy Ekscentrycznego Kapłana"
     },
     {
-        image: person1,
-        fullName: "Anna Nowak",
-        description: "Anna Nowak jest projektantką graficzną z ponad 10-letnim doświadczeniem w branży kreatywnej."
+        image: mikolaj,
+        fullName: "Mikołaj Lew",
+        description: "Projektant części oraz konstruktor teleskopu"
     },
     {
-        image: person1,
-        fullName: "Piotr Zalewski",
-        description: "Piotr Zalewski, ekspert ds. marketingu cyfrowego, znany z innowacyjnych strategii marketingowych i głębokiej wiedzy na temat SEO."
+        image: martyna,
+        fullName: "Martyna Fus",
+        description: "Lider zespołu oraz analityk danych."
     },
     {
-        image: person1,
-        fullName: "Katarzyna Bąk",
-        description: "Katarzyna Bąk to liderka zespołu z doświadczeniem w zarządzaniu projektami IT i skutecznym wdrażaniu rozwiązań technologicznych."
+        image: maciek,
+        fullName: "Maciej Wróbel",
+        description: "Administrator strony internetowej."
     }
 ];
 
