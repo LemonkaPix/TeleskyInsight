@@ -1,5 +1,5 @@
 import Sponsors from '../sponsors';
-import logo from "../../assets/logos.png"
+import logo from "../../assets/logo.png"
 
 const Footer = () => {
     return (

@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import logo from "../../assets/logos.png"; 
+import logo from "../../assets/logo.png"; 
 
 const StandardHeader = () => {
     const [isScrolled, setIsScrolled] = useState(false);
