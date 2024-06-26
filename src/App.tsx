@@ -6,6 +6,7 @@ import Charts from './components/charts';
 import AboutProject from './components/aboutProject';
 import Team from './components/team';
 import Footer from './components/footer';
+import Gallery from './components/Gallery';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Header />
       <Hero />
       <AboutTelescopes />
+      <Gallery />
       <Charts />
       <AboutProject />
       <Team />

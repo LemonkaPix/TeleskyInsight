@@ -3,6 +3,9 @@ import i2 from "../../assets/gallery/2.jpg"
 import i3 from "../../assets/gallery/3.jpg"
 import i4 from "../../assets/gallery/4.jpg"
 import i5 from "../../assets/gallery/5.jpg"
+import i6 from "../../assets/gallery/6.jpg"
+import i7 from "../../assets/gallery/7.jpg"
+import i8 from "../../assets/gallery/8.jpg"
 
 
 export interface GalleryImage {
@@ -23,6 +26,15 @@ const DataGallery: GalleryImage[] = [
     },
     {
         image: i5,
+    },
+    {
+        image: i6,
+    },
+    {
+        image: i7,
+    },
+    {
+        image: i8,
     },
 ];
 

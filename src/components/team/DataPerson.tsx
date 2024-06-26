@@ -18,7 +18,7 @@ const DataPerson: Person[] = [
     {
         image: mikolaj,
         fullName: "Mikołaj Lew",
-        description: "Projektant części oraz konstruktor teleskopu"
+        description: "Projektant części oraz konstruktor teleskopu."
     },
     {
         image: martyna,
